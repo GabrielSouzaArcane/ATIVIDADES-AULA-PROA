@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+ var candidatos = [candidato01 = { voto : 75},
+                   candidato02 = { voto : 753},
+                   candidato03 = { voto : 625},
+                   candidato04 = { voto : 0000}]
+
+
+//não consegui concluir a atividade, faltou construir a soma dos votos
+
+candi1 = []
+candi2 = []
+candi3 = []
+candi4 = []
+do{
+
+ var eleição = parseFloat(prompt("Realizar voto? \n digite 1"))
+ 
+ //usuario vai para a tela de voto 
+ var voto = parseFloat (prompt("Digite o número de seu candidato?")) 
+ //logo digita o numero de seu candidato escolhido
+
+ /*var certeza = parseFloat (prompt("Digite o número novamente para confirmar."))*/
+
+ //logo confirma o numero de seu candidato 
+ 
+
+
+
+ switch (voto) {
+        
+        case 0000: {var candit1 = alert(" número : 0000 \n seu voto é nulo.")
+                    var bloco1 = (bloco1 => candit1);break}
+
+        case 75: {var candit2 = alert(" numero : 075,\n nome : Jair Bolsonaro,\n partido : PL")
+                    var bloco2 = (bloco2 => candit2);break}
+        
+        case 753: {var candit3 = alert(" numero : 753,\n nome : Lula Inácio,\n partido : PT")
+                    var bloco3 = (bloco3 => candit3);break}
+
+        case 625: {var candit4 = alert(" numero : 625,\n nome : Felipe D'Avila,\n partido : Novo")
+                    var bloco4 = (bloco4 => candit4);break}}
+
+        candi1.push(bloco1)
+        candi2.push(bloco2)
+        candi3.push(bloco3)
+        candi4.push(bloco4)
+
+ 
+    var repeticao = parseFloat(prompt("CONFIRMA"))
+    var encerramento = parseFloat(prompt("Deseja encerrar a urna eletronica \n 1- SIM \ 2- NÃO"))
+
+}while (encerramento == 2)
+
+console.log(candi1)
+console.log(candi2)
+console.log(candi3)
+console.log(candi4)
+
+</script> 
+
+</body>
+  </html>
